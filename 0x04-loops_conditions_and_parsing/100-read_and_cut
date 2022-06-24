@@ -5,4 +5,4 @@ file=/etc/passwd
 
 while read -r i; do
     echo "$i" | cut -f 1,3,6 -d':'
-done < "$i"
+done < "$file"
